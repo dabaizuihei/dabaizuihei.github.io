@@ -24,7 +24,7 @@
 <span id="more"></span>
 
 
-    <div id="aplayer-BfdyBKBi" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-bECBFApK" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="143952185" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#66CCFF"
     ></div>
 
@@ -43,6 +43,9 @@
 <h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><p>一般主题的GitHub页面里都会写，这里是一个实例<br>比如这个主题叫做next</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
 <p>打开站点config，把theme后面改成站点名称</p>
+<h1 id="图片引用"><a href="#图片引用" class="headerlink" title="图片引用"></a>图片引用</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;img src=&quot;/img/图片名称.png&quot;&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="B站引用"><a href="#B站引用" class="headerlink" title="B站引用"></a>B站引用</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe width=&quot;100%&quot; height=&quot;576&quot; src=&quot;[播放器链接]&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="网易云引用"><a href="#网易云引用" class="headerlink" title="网易云引用"></a>网易云引用</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% meting &quot;1368967575&quot; &quot;netease&quot; &quot;song&quot; %&#125;</span><br></pre></td></tr></table></figure>
 <h1 id="增加ico"><a href="#增加ico" class="headerlink" title="增加ico"></a>增加ico</h1><p><del>路径Hexo\blog\node_modules\hexo-theme-kira\source\lib\iconfont</del><br><del>两个css和js文件，从<a href="http://www.iconfont.cn保存css和js文件后替换/">www.iconfont.cn保存css和js文件后替换</a></del></p>
 <h1 id="网站主体路径"><a href="#网站主体路径" class="headerlink" title="网站主体路径"></a>网站主体路径</h1><p><del>Hexo\blog\node_modules\hexo-theme-kira\layout\components</del></p>
 <h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo -g #安装Hexo</span><br><span class="line">npm update hexo -g #升级</span><br><span class="line">hexo init #初始化博客</span><br></pre></td></tr></table></figure>
@@ -95,6 +98,7 @@
 <li><a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">aplayer</a></li>
 <li><a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md">live2d</a></li>
 <li><a href="https://github.com/MoePlayer/hexo-tag-dplayer">dplayer</a></li>
+<li><a href="https://github.com/Z4Tech/hexo-tag-bilibili">tag-bilibili</a></li>
 </ul>
 <h1 id="外部资料"><a href="#外部资料" class="headerlink" title="外部资料"></a>外部资料</h1><ul>
 <li><a href="https://hexo.io/zh-cn/docs">hexo官方文档</a></li>
@@ -111,6 +115,151 @@
         <tag>Blog</tag>
         <tag>笔记</tag>
         <tag>Code</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>倾听风的声音『第1期』</title>
+    <url>/2021/02/23/%E5%80%BE%E5%90%AC%E9%A3%8E%E7%9A%84%E5%A3%B0%E9%9F%B3%E3%80%8E%E7%AC%AC1%E6%9C%9F%E3%80%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><img src="/img/luotianyi2.png">
+
+<p>这里写一些我比较常听的歌曲~<br>一般是我觉得比较好听的er~<br>或者对某首歌有着比较特殊的情怀（<br>有很多宝藏歌曲！！<br>这个页面会持续更新的~<br>有的也会写一些我的感受~<br>大部分都会放MV&#x2F;PV~<br>『第1期』</p>
+<span id="more"></span>
+
+<div class="admonition warning"><p><strong>请不要在无关的地方刷我哦~大家都是听话的好孩子对不对www</strong></p>
+</div>
+
+<h1 id="Unknown-Mother-Goose（不为人知的鹅妈妈）"><a href="#Unknown-Mother-Goose（不为人知的鹅妈妈）" class="headerlink" title="Unknown Mother-Goose（不为人知的鹅妈妈）"></a>Unknown Mother-Goose（不为人知的鹅妈妈）</h1><ul>
+<li>语言：日语</li>
+<li>词 : wowaka（1987年11月4日†2019年4月5日）</li>
+<li>曲 : wowaka（1987年11月4日†2019年4月5日）</li>
+<li>类型：V家</li>
+<li>歌姬：初音ミク</li>
+<li>推荐理由：<br>这首歌我听了蛮久的，我网易云主页显示的是我听了这首歌100多次（我真的很少听同一首歌听得完完整整超过30次）。第一次听到这首歌的时候，是听up主进击的冰糖唱的，当时真的被迷住了，感觉超级好听，并没有细品歌词的意思。直到有一段时间，我认真看了看歌词，才发现wowaka写这首歌时的心境。现実逃避P的名字，我这才理解它真正的含义。这首歌的歌词，是拥有那样的深意。</li>
+</ul>
+<blockquote>
+<p>他用了6年才把自己曾被伤害的温柔本心拼起来,而那颗心也不再是简单的黑白分明，它在复杂灰暗的现实世界中学会了游刃有余，看似混乱，实则对称有序，这个人不再“现实逃避”，而是温柔地向这个世界传达“爱”的主题。<br>——知乎用户“百川东到海”</p>
+</blockquote>
+<p>wowaka，一路走好<br>——2021.02.23</p>
+<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=34827375&bvid=BV1yb411N7up&cid=64323857&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<hr>
+<h2 id="一梦贪欢"><a href="#一梦贪欢" class="headerlink" title="一梦贪欢"></a>一梦贪欢</h2><ul>
+<li>语言：中文</li>
+<li>词 : 苍苍</li>
+<li>曲 : 砖厂浪人</li>
+<li>类型：V家</li>
+<li>歌姬：洛天依 &#x2F; 徵羽摩柯</li>
+<li>推荐理由：<br>这首歌有一种莫名的对人的吸引感。当前奏响起就令人欲罢不能。这首歌用一种略为失真的曲调描绘了一幅拥有色彩的场景。说句实话，我的《夏·思·梦》的灵感有一部分也来自这里。我非常喜欢砖厂浪人写的歌，不知为何有一种亲切的感觉（不知道怎么想的2333）。偶然发现，这首歌开头两句出自苏轼的《行香子·过七里濑》：</li>
+</ul>
+<blockquote>
+<p>一叶舟轻，双桨鸿惊。水天清、影湛波平。鱼翻藻鉴，鹭点烟汀。过沙溪急，霜溪冷，月溪明。<br>重重似画，曲曲如屏。算当年、虚老严陵。君臣一梦，今古空名。但远山长，云山乱，晓山青。<br>——苏轼《行香子·过七里濑》</p>
+</blockquote>
+<p>我查了一下这首词的赏析：</p>
+<blockquote>
+<p>此词是苏轼在宋神宗熙宁六年二月（时任杭州通判）的一个清晨乘轻舟经过浙江境内著名风景区富春江上的七里濑以后写下的。词中在对大自然美景的赞叹中，寄寓了因缘自适、看透名利、归真返朴的人生态度，发出了人生如梦的浩叹。<br>——百度汉语</p>
+</blockquote>
+<p>苍苍把这几句压缩了，但是我看来不失色彩。当然如果脑补大戏的话也是能脑补出来的23333<br>吸引我的地方还有这首歌的PV，真的超级喜欢！大家可以到原视频应援哦！！！<br>——2021.02.23</p>
+<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=42387547&bvid=BV1Ub411k7jb&cid=74375539&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<blockquote>
+<p>截至本篇已撰写2篇</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>倾听风的声音</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+        <tag>歌单</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>倾听风的声音『第2期』</title>
+    <url>/2021/02/24/%E5%80%BE%E5%90%AC%E9%A3%8E%E7%9A%84%E5%A3%B0%E9%9F%B3%E3%80%8E%E7%AC%AC2%E6%9C%9F%E3%80%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>『第2期』</p>
+<span id="more"></span>
+
+<img src="/img/luotianyi2.png">
+
+<p>这里写一些我比较常听的歌曲~<br>一般是我觉得比较好听的er~<br>或者对某首歌有着比较特殊的情怀（<br>有很多宝藏歌曲！！<br>这个页面会持续更新的~<br>有的也会写一些我的感受~<br>大部分都会放MV&#x2F;PV~</p>
+<div class="admonition warning"><p><strong>请不要在无关的地方刷我哦~大家都是听话的好孩子对不对www</strong></p>
+</div>
+
+<h1 id="世末歌者"><a href="#世末歌者" class="headerlink" title="世末歌者"></a>世末歌者</h1><ul>
+<li>语言：中文</li>
+<li>词 : COP</li>
+<li>曲 : COP</li>
+<li>类型：V家</li>
+<li>歌姬：乐正绫</li>
+<li>推荐理由：<br>这首歌也算我的入坑曲之一吧。当时只听一些大佬的翻唱版本，却没有听过原版。现在看来，COP的调教确实非常强（是我达不到的水平www），这样听反而乐正绫的版本更加有故事。我听天依和阿绫合唱那个版本比较少，我觉得阿绫独唱的这个版本比较有世末歌者的感觉。孤独的一个人，在街上……瞬间有了画面感。有时候我孤独无助了，或者收到了什么责骂，都会听一听这首歌。这首歌对我，不仅是治愈，也是我的过去。<br>这首歌的PV更像在描绘一个故事，当场景切换，你就仿佛有一种身临其境的感觉。真心推荐大家空闲的时候，去看着PV，听着歌，思考一些平常没有时间思考的事情。<br>当然，这个的系列曲我也很推荐大家去听~<br>——2021.02.24</li>
+</ul>
+<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=6009789&bvid=BV1Qs411k7Qv&cid=35302832&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+<hr>
+<h1 id="原神-闪耀的群星-The-Stellar-Moments-（专辑）"><a href="#原神-闪耀的群星-The-Stellar-Moments-（专辑）" class="headerlink" title="原神-闪耀的群星 The Stellar Moments （专辑）"></a>原神-闪耀的群星 The Stellar Moments <strong>（专辑）</strong></h1><ul>
+<li>制作人：陈致逸 &#x2F; HOYO-MiX</li>
+<li>类型：纯音乐&#x2F;游戏BGM</li>
+<li>专辑页面：<a href="https://music.163.com/#/album?id=122524667">网页链接</a></li>
+<li>推荐理由：<br>这张专辑是我比较喜欢的一张专辑。总长度不长，但是妙啊（bushi）<br>这张专辑里面有着原神所有角色的BGM，如果你了解每个角色，即使不看歌名也能猜到这首歌是哪个角色的。这张专辑中的每首歌都风格分明，并不让人厌烦。米忽悠的BGM一直可以的~<br>我比较喜欢甘雨和温迪的BGM，我认为这两个曲子完美的突出了角色特点。<br>甘雨的突出了甘雨的腼腆，温迪的突出了风神的……嗯，总之说不出来的妙！<br>顺便说说原神。原神这款游戏是我玩过的比较震撼的。很少有游戏能让我上瘾，但是原神例外，现在每天不打一个小时难受得慌。开放世界的游戏总是很吸引我，每一个剧情有很强的代入感，旅行时候的场景很吸引人，就是策划有点费马2333<br>这里放两个我比较喜欢的角色演示~<br>——2021.02.24</li>
+</ul>
+<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=928547773&bvid=BV1xT4y1N7Wn&cid=280949940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=627236039&bvid=BV1st4y1q7V4&cid=238833609&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<blockquote>
+<p>截至本篇已撰写4篇</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>倾听风的声音</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+        <tag>歌单</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>倾听风的声音『第3期』</title>
+    <url>/2021/02/25/%E5%80%BE%E5%90%AC%E9%A3%8E%E7%9A%84%E5%A3%B0%E9%9F%B3%E3%80%8E%E7%AC%AC3%E6%9C%9F%E3%80%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>『第3期』</p>
+<span id="more"></span>
+
+<img src="/img/luotianyi2.png">
+
+<p>这里写一些我比较常听的歌曲~<br>一般是我觉得比较好听的er~<br>或者对某首歌有着比较特殊的情怀（<br>有很多宝藏歌曲！！<br>这个页面会持续更新的~<br>有的也会写一些我的感受~<br>大部分都会放MV&#x2F;PV~</p>
+<div class="admonition warning"><p><strong>请不要在无关的地方刷我哦~大家都是听话的好孩子对不对www</strong></p>
+</div>
+
+<h1 id="樱花雨-星尘-Version"><a href="#樱花雨-星尘-Version" class="headerlink" title="樱花雨 (星尘 Version)"></a>樱花雨 (星尘 Version)</h1><ul>
+<li>语言：中文</li>
+<li>词 : Snapmod &#x2F; 晹夏</li>
+<li>曲 : Snapmod</li>
+<li>类型：V家</li>
+<li>歌姬：星尘</li>
+<li>推荐理由：<br>这首歌是我加入网易云听的第三首歌，我记得是从私人电台来的。我之前有一个网易云账号，但是不怎么用，只用QQ音乐，自从加入网易云之后，发现网易云的日推yyds！QQ就很少用了。但是因为那个账号是我之前的东西，所以直接注销了，如果那个账号还在，估计得有5年村龄了吧。<br>歌姬的话，我还是比较喜欢星尘的版本。感觉星尘更加适合这首歌一些。我听五维介质的歌姬听得没VC得多，但是我认为从声库质量来说，五维介质得略高一筹。<br>Snapmod的曲子超可！唯一遗憾的就是，Snapmod的b站账号在2020年注销了。我目前还不知道原因，但是我尊重Snapmod老师的决定，即使没有PV，我们还能从音乐中体会更令人沉浸的故事。<br>这首歌相对来说并不那么热门，但是我认为这首歌的故事更加能吸引我。我认为，Snapmod想要表达的，可能就是写在专辑简介里面的那一句话了。</li>
+</ul>
+<blockquote>
+<p>“希望相爱的人永远不会把邂逅搁浅”</p>
+</blockquote>
+<p>——2021.02.25</p>
+
+    <div id="aplayer-KWrZHqpt" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="1368967575" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
+    ></div>
+
+
+
+<blockquote>
+<p>截至本篇已撰写5篇</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>倾听风的声音</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+        <tag>歌单</tag>
       </tags>
   </entry>
 </search>
