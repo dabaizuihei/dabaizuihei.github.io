@@ -3,7 +3,22 @@
   <entry>
     <title>blog使用笔记</title>
     <url>/2022/11/08/blog%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<blockquote>
+    <content><![CDATA[<div id="vBanner_Root">
+    <div id="vBanner_Container" style="background-image: linear-gradient(to bottom right, white ,#66CCFF)">
+        <a href="https://vsinger.com/vsinger">
+            <div id="vBanner_post" title="Luo Tianyi" style="background-image:url(https://res.vsinger.com/images/258a09a2b0174738840e8b696e86d771.jpg)"></div>
+        </a>
+        <div id="vLogo_Container">
+            
+                
+                   <div id="vBanner_logo" style="background-image:url(https://dabaizuihei.github.io/bannerImg/luotianyi.png)"></div>     
+                    
+            
+        </div>
+    </div>
+</div>
+
+<blockquote>
 <p>嘛，算是一篇笔记吧<br>毕竟有的命令还是不熟悉，在这里就算是记一下<br>然后会随时上来写update</p>
 </blockquote>
 <h1 id="从零开始"><a href="#从零开始" class="headerlink" title="从零开始"></a>从零开始</h1><ol>
@@ -64,6 +79,7 @@
 <li><a href="https://hexo.kira.host/">Kira Hexo文档</a></li>
 <li><a href="https://github.com/Yue-plus/hexo-theme-arknights">Arknights文档</a></li>
 <li><a href="https://docs.hojun.cn/sakura/docs">Sakura文档</a></li>
+<li><a href="https://shen-yu.gitee.io/2019/ayer/#%E4%BB%8B%E7%BB%8D">Ayer资料</a></li>
 </ul>
 ]]></content>
       <categories>
