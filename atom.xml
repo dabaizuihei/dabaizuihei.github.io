@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>大白最黑のHome2.0</title>
+  
+  <subtitle>大白最黑的博客 | Shiragawa Hiroki&#39;s Blog</subtitle>
+  <link href="https://dabaizuihei.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://dabaizuihei.github.io/"/>
+  <updated>2022-11-09T11:27:25.005Z</updated>
+  <id>https://dabaizuihei.github.io/</id>
+  
+  <author>
+    <name>dabaizuihei | 白川　弘樹</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>blog使用笔记</title>
+    <link href="https://dabaizuihei.github.io/2022/11/08/blog%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
+    <id>https://dabaizuihei.github.io/2022/11/08/blog%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</id>
+    <published>2022-11-08T03:10:00.000Z</published>
+    <updated>2022-11-09T11:27:25.005Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;嘛，算是一篇笔记吧&lt;br&gt;毕竟有的命令还是不熟悉，在这里就算是记一下&lt;br&gt;然后会随时上来写update&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;从零开始&quot;&gt;&lt;a href=&quot;#从零开始&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术相关" scheme="https://dabaizuihei.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="Blog" scheme="https://dabaizuihei.github.io/tags/Blog/"/>
+    
+    <category term="笔记" scheme="https://dabaizuihei.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Code" scheme="https://dabaizuihei.github.io/tags/Code/"/>
+    
+  </entry>
+  
+</feed>
