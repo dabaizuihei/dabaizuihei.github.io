@@ -3,7 +3,7 @@
   <entry>
     <title>blog使用笔记</title>
     <url>/2022/11/08/blog%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<div id="vBanner_Root">
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div id="vBanner_Root">
     <div id="vBanner_Container" style="background-image: linear-gradient(to bottom right, white ,#66CCFF)">
         <a href="https://vsinger.com/vsinger">
             <div id="vBanner_post" title="Luo Tianyi" style="background-image:url(https://res.vsinger.com/images/258a09a2b0174738840e8b696e86d771.jpg)"></div>
@@ -21,6 +21,13 @@
 <blockquote>
 <p>嘛，算是一篇笔记吧<br>毕竟有的命令还是不熟悉，在这里就算是记一下<br>然后会随时上来写update</p>
 </blockquote>
+<span id="more"></span>
+
+
+    <div id="aplayer-BfdyBKBi" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="143952185" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#66CCFF"
+    ></div>
+
 <h1 id="从零开始"><a href="#从零开始" class="headerlink" title="从零开始"></a>从零开始</h1><ol>
 <li>安装git</li>
 <li>配置github地址<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的GitHub注册邮箱&quot;</span><br><span class="line">ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot;</span><br></pre></td></tr></table></figure></li>
@@ -36,8 +43,8 @@
 <h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><p>一般主题的GitHub页面里都会写，这里是一个实例<br>比如这个主题叫做next</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
 <p>打开站点config，把theme后面改成站点名称</p>
-<h1 id="增加ico"><a href="#增加ico" class="headerlink" title="增加ico"></a>增加ico</h1><p>路径Hexo\blog\node_modules\hexo-theme-kira\source\lib\iconfont<br>两个css和js文件，从<a href="http://www.iconfont.cn保存css和js文件后替换/">www.iconfont.cn保存css和js文件后替换</a></p>
-<h1 id="网站主体路径"><a href="#网站主体路径" class="headerlink" title="网站主体路径"></a>网站主体路径</h1><p>Hexo\blog\node_modules\hexo-theme-kira\layout\components</p>
+<h1 id="增加ico"><a href="#增加ico" class="headerlink" title="增加ico"></a>增加ico</h1><p><del>路径Hexo\blog\node_modules\hexo-theme-kira\source\lib\iconfont</del><br><del>两个css和js文件，从<a href="http://www.iconfont.cn保存css和js文件后替换/">www.iconfont.cn保存css和js文件后替换</a></del></p>
+<h1 id="网站主体路径"><a href="#网站主体路径" class="headerlink" title="网站主体路径"></a>网站主体路径</h1><p><del>Hexo\blog\node_modules\hexo-theme-kira\layout\components</del></p>
 <h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo -g #安装Hexo</span><br><span class="line">npm update hexo -g #升级</span><br><span class="line">hexo init #初始化博客</span><br></pre></td></tr></table></figure>
 <p>命令简写</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;我的博客&quot; == hexo new &quot;我的博客&quot; #新建文章</span><br><span class="line">hexo g == hexo generate #生成</span><br><span class="line">hexo s == hexo server #启动服务预览</span><br><span class="line">hexo d == hexo deploy #部署</span><br><span class="line">hexo server #Hexo会监视文件变动并自动更新，无须重启服务器</span><br><span class="line">hexo server -s #静态模式</span><br><span class="line">hexo server -p 5000 #更改端口</span><br><span class="line">hexo server -i 192.168.1.1 #自定义 IP</span><br><span class="line">hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令</span><br></pre></td></tr></table></figure>
@@ -45,8 +52,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 <p>预览</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<h1 id="常用参数"><a href="#常用参数" class="headerlink" title="常用参数"></a>常用参数</h1><p>在 Kira-Hexo 当中，我们也为各位保留了如下几个 Front Matter 用于对文章进行部分定制：</p>
-<table>
+<h1 id="常用参数"><a href="#常用参数" class="headerlink" title="常用参数"></a>常用参数</h1><table>
 <thead>
 <tr>
 <th align="center">参数</th>
@@ -56,15 +62,27 @@
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">cover</td>
-<td align="center">theme.background.path</td>
-<td align="center">文章封面</td>
+<td align="center"><del>cover</del></td>
+<td align="center"><del>theme.background.path</del></td>
+<td align="center"><del>文章封面</del></td>
+<td align="center"><del>Front Matter</del></td>
+</tr>
+<tr>
+<td align="center"><del>reprinted</del></td>
+<td align="center"><del>false</del></td>
+<td align="center"><del>是否为转载文章（转载文章不会标记版权信息）</del></td>
+<td align="center"><del>Front Matter</del></td>
+</tr>
+<tr>
+<td align="center">no_word_count</td>
+<td align="center">false</td>
+<td align="center">字数统计</td>
 <td align="center">Front Matter</td>
 </tr>
 <tr>
-<td align="center">reprinted</td>
-<td align="center">false</td>
-<td align="center">是否为转载文章（转载文章不会标记版权信息）</td>
+<td align="center">password</td>
+<td align="center">none</td>
+<td align="center">文章密码</td>
 <td align="center">Front Matter</td>
 </tr>
 </tbody></table>
@@ -73,6 +91,10 @@
 <li><a href="https://github.com/MIMONATCH/hexo-vtuber-banner">vTuber-Banner</a></li>
 <li><a href="https://github.com/lxl80/hexo-admonition">admonition</a></li>
 <li><a href="https://github.com/mmdjiji/hexo-bangumis">bangumis</a></li>
+<li><a href="https://github.com/D0n9X1n/hexo-blog-encrypt/blob/master/ReadMe.zh.md">blog-encrypt</a></li>
+<li><a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">aplayer</a></li>
+<li><a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md">live2d</a></li>
+<li><a href="https://github.com/MoePlayer/hexo-tag-dplayer">dplayer</a></li>
 </ul>
 <h1 id="外部资料"><a href="#外部资料" class="headerlink" title="外部资料"></a>外部资料</h1><ul>
 <li><a href="https://hexo.io/zh-cn/docs">hexo官方文档</a></li>

@@ -6,7 +6,7 @@
   <link href="https://dabaizuihei.github.io/atom.xml" rel="self"/>
   
   <link href="https://dabaizuihei.github.io/"/>
-  <updated>2022-11-10T01:32:43.046Z</updated>
+  <updated>2022-11-10T03:40:41.889Z</updated>
   <id>https://dabaizuihei.github.io/</id>
   
   <author>
@@ -21,18 +21,27 @@
     <link href="https://dabaizuihei.github.io/2022/11/08/blog%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
     <id>https://dabaizuihei.github.io/2022/11/08/blog%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</id>
     <published>2022-11-08T03:10:00.000Z</published>
-    <updated>2022-11-10T01:32:43.046Z</updated>
+    <updated>2022-11-10T03:40:41.889Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;div id=&quot;vBanner_Root&quot;&gt;
     &lt;div id=&quot;vBanner_Container&quot; style=&quot;background-image: linear-gradient(to bottom right, white ,#66CCFF)&quot;&gt;
-     </summary>
-        
-      
+        &lt;a href=&quot;https://vsinger.com/vsinger&quot;&gt;
+            &lt;div id=&quot;vBanner_post&quot; title=&quot;Luo Tianyi&quot; style=&quot;background-image:url(https://res.vsinger.com/images/258a09a2b0174738840e8b696e86d771.jpg)&quot;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+        &lt;div id=&quot;vLogo_Container&quot;&gt;
+            
+                
+                   &lt;div id=&quot;vBanner_logo&quot; style=&quot;background-image:url(https://dabaizuihei.github.io/bannerImg/luotianyi.png)&quot;&gt;&lt;/div&gt;     
+                    
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;嘛，算是一篇笔记吧&lt;br&gt;毕竟有的命令还是不熟悉，在这里就算是记一下&lt;br&gt;然后会随时上来写update&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
