@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>大白最黑的Blog - 贪吃蛇</title>
+	<script type="text/javascript" src="snake.js"></script>
+
+	<script>
+
+	</script>
+</head>
+<body>
+	<h1><font color="white">大白最黑的Blog - 贪吃蛇</font></h1>
+	<div align="left" class="a">
+	<font color="white"><b>
+		规则：<br>
+		初始分数为0、初始速度为1。分数每满100分，速度提高一等级，最高速度为10<br>
+		当蛇的碰到墙或者自己身子，游戏失败<br>
+		可能仅支持电脑端~<br>
+	</b></font>
+	</div>
+	<style>
+body{
+	text-align: center;
+	background-color: #1C7CC5;
+}
+#snake{
+	margin-top: 20px;
+}
+.a{
+	margin-top: 50px;
+	margin-left: 680px;
+	width: 600px;
+	font-size: 20px;
+ 
+}
+
+	</style>
+	<canvas id="snake" width="" height=""></canvas>
+
+	<h3 id="score">我的得分：0</h3>
+	<h3 id="speed">当前速度：1</h3>
+
+	<script>
+	var snake = new Snake("snake","score","speed",36,36);
+		snake.init();
+
+	</script>
+</body>
