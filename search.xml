@@ -4,7 +4,7 @@
     <title>2023，新年快乐</title>
     <url>/2023/01/01/2023%EF%BC%8C%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
-    <div id="aplayer-HkpWZsBf" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-xdgvzutn" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2004684270" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 <p>啊，睡不着了<br>其实刚才睡着了的，然后被放炮吵醒了<br>醒来一看睡了一个小时，正好是零点<br>然后闭眼，发觉睡不着，拿出耳机，看到手机没电了，和一堆的消息。充了一会，打算写点东西，或许有年终总结，或许是瞎写</p>
@@ -35,7 +35,7 @@
     <title>2024，新年快乐</title>
     <url>/2024/01/02/2024%EF%BC%8C%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
-    <div id="aplayer-jDxkyfIZ" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-mDxMezyz" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1935590137" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 <h1 id="2023年度总结"><a href="#2023年度总结" class="headerlink" title="2023年度总结"></a>2023年度总结</h1><p>回内蒙了，明天学考。算是一段小旅程，在外面跨了年。<br>虽然说写得比较晚，但是感觉总结这种东西最好是说一说，算是对自己一个交代。</p>
@@ -61,7 +61,7 @@
     <title>DW之后</title>
     <url>/2023/12/05/DW%E4%B9%8B%E5%90%8E/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
-    <div id="aplayer-KVhcdZOL" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-uYVuXFbE" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2081306013" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -104,37 +104,14 @@
 <span id="more"></span>
 
 
-    <div id="aplayer-bwPLUpJs" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-nVLcuiKI" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="143952185" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#66CCFF"
     ></div>
 
-<h1 id="从零开始"><a href="#从零开始" class="headerlink" title="从零开始"></a>从零开始</h1><ol>
-<li>安装git</li>
-<li>配置github地址<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的GitHub注册邮箱&quot;</span><br><span class="line">ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot;</span><br></pre></td></tr></table></figure></li>
-<li>复制生成的.ssh文件夹里id.rsa.pub中的密钥全部复制</li>
-<li>打开Github Settings keys，新建new SSH Key<br>Title自主命名，Key粘贴</li>
-<li>安装Node.js</li>
-<li>安装Hexo<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-安装完成后初始化<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init blog  #注意这些命令作用在创建的Blog文件夹</span><br><span class="line">hexo n 随便一个页面名字 #创建新页面</span><br><span class="line">hexo g  #生成网页</span><br><span class="line">hexo s  #在本地预览</span><br></pre></td></tr></table></figure>
-随后打开localhost:4000，本地页面出现</li>
-<li>关联Github，打开站点配置文件_config.yml，最下面这样改<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repo: 这里填入你之前在GitHub上创建仓库的完整路径，记得加上 .git</span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure></li>
-<li>安装Git部署插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo clean </span><br><span class="line">hexo g </span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><p>一般主题的GitHub页面里都会写，这里是一个实例<br>比如这个主题叫做next</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
-<p>打开站点config，把theme后面改成站点名称</p>
 <h1 id="图片引用"><a href="#图片引用" class="headerlink" title="图片引用"></a>图片引用</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;img src=&quot;/img/图片名称.png&quot;&gt;</span><br></pre></td></tr></table></figure>
 <h1 id="B站引用"><a href="#B站引用" class="headerlink" title="B站引用"></a>B站引用</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe width=&quot;100%&quot; height=&quot;576&quot; src=&quot;[播放器链接]&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
 <h1 id="网易云引用"><a href="#网易云引用" class="headerlink" title="网易云引用"></a>网易云引用</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% meting &quot;1368967575&quot; &quot;netease&quot; &quot;song&quot; %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="增加ico"><a href="#增加ico" class="headerlink" title="增加ico"></a>增加ico</h1><p><del>路径Hexo\blog\node_modules\hexo-theme-kira\source\lib\iconfont</del><br><del>两个css和js文件，从<a href="http://www.iconfont.cn保存css和js文件后替换/">www.iconfont.cn保存css和js文件后替换</a></del></p>
-<h1 id="网站主体路径"><a href="#网站主体路径" class="headerlink" title="网站主体路径"></a>网站主体路径</h1><p><del>Hexo\blog\node_modules\hexo-theme-kira\layout\components</del></p>
-<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo -g #安装Hexo</span><br><span class="line">npm update hexo -g #升级</span><br><span class="line">hexo init #初始化博客</span><br></pre></td></tr></table></figure>
-<p>命令简写</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;我的博客&quot; == hexo new &quot;我的博客&quot; #新建文章</span><br><span class="line">hexo g == hexo generate #生成</span><br><span class="line">hexo s == hexo server #启动服务预览</span><br><span class="line">hexo d == hexo deploy #部署</span><br><span class="line">hexo server #Hexo会监视文件变动并自动更新，无须重启服务器</span><br><span class="line">hexo server -s #静态模式</span><br><span class="line">hexo server -p 5000 #更改端口</span><br><span class="line">hexo server -i 192.168.1.1 #自定义 IP</span><br><span class="line">hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令</span><br></pre></td></tr></table></figure>
-<p>上传时一般这么写（传不上去多试试）</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>预览</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm update hexo -g \\升级Hexo</span><br><span class="line">hexo new &quot;[NAME]&quot; \\创建名称为NAME的文章</span><br><span class="line">hexo generate \\生成页面</span><br><span class="line">hexo server \\启动实时服务预览</span><br><span class="line">hexo clean \\清除缓存</span><br><span class="line">hexo deploy \\部署</span><br></pre></td></tr></table></figure>
 <h1 id="常用参数"><a href="#常用参数" class="headerlink" title="常用参数"></a>常用参数</h1><table>
 <thead>
 <tr>
@@ -145,18 +122,6 @@
 </tr>
 </thead>
 <tbody><tr>
-<td align="center"><del>cover</del></td>
-<td align="center"><del>theme.background.path</del></td>
-<td align="center"><del>文章封面</del></td>
-<td align="center"><del>Front Matter</del></td>
-</tr>
-<tr>
-<td align="center"><del>reprinted</del></td>
-<td align="center"><del>false</del></td>
-<td align="center"><del>是否为转载文章（转载文章不会标记版权信息）</del></td>
-<td align="center"><del>Front Matter</del></td>
-</tr>
-<tr>
 <td align="center">no_word_count</td>
 <td align="center">false</td>
 <td align="center">字数统计</td>
@@ -175,6 +140,60 @@
 <td align="center">Front Matter</td>
 </tr>
 </tbody></table>
+<h1 id="部分Markdown语法"><a href="#部分Markdown语法" class="headerlink" title="部分Markdown语法"></a>部分Markdown语法</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br></pre></td></tr></table></figure>
+<p>以此类推 呈现效果如下</p>
+<blockquote>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3></blockquote>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">~~删除线~~</span><br><span class="line">**粗体**</span><br><span class="line">*斜体*</span><br></pre></td></tr></table></figure>
+<p>呈现效果如下</p>
+<blockquote>
+<p><del>删除线</del><br><strong>粗体</strong><br><em>斜体</em></p>
+</blockquote>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`单行代码`</span><br><span class="line">```多行代码```</span><br></pre></td></tr></table></figure>
+<p>呈现效果如下</p>
+<blockquote>
+<p><code>I am code</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I am codes,</span><br><span class="line">I am codes, too.</span><br><span class="line">Hello World!</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 有序列表</span><br><span class="line">- 无序列表</span><br><span class="line">* 无序列表</span><br><span class="line">+ 无序列表</span><br></pre></td></tr></table></figure>
+<p>呈现效果如下</p>
+<blockquote>
+<ol>
+<li>有序列表</li>
+</ol>
+<ul>
+<li>无序列表</li>
+</ul>
+<ul>
+<li>无序列表</li>
+</ul>
+<ul>
+<li>无序列表</li>
+</ul>
+</blockquote>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|分隔符|分隔符|分隔符|</span><br><span class="line">|:-|:-:|-:|</span><br><span class="line">|左对齐|居中|右对齐|</span><br><span class="line">|左对齐|居中|右对齐|</span><br></pre></td></tr></table></figure>
+<p>呈现效果如下</p>
+<blockquote>
+<table>
+<thead>
+<tr>
+<th align="left">分隔符</th>
+<th align="center">分隔符</th>
+<th align="right">分隔符</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">左对齐</td>
+<td align="center">居中</td>
+<td align="right">右对齐</td>
+</tr>
+<tr>
+<td align="left">左对齐</td>
+<td align="center">居中</td>
+<td align="right">右对齐</td>
+</tr>
+</tbody></table>
+</blockquote>
 <h1 id="已安装的插件"><a href="#已安装的插件" class="headerlink" title="已安装的插件"></a>已安装的插件</h1><ul>
 <li><a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">gitalk</a></li>
 <li><a href="https://github.com/MIMONATCH/hexo-vtuber-banner">vTuber-Banner</a></li>
@@ -200,6 +219,21 @@
 <li><a href="https://docs.hojun.cn/sakura/docs">Sakura文档</a></li>
 <li><a href="https://shen-yu.gitee.io/2019/ayer/#%E4%BB%8B%E7%BB%8D">Ayer资料</a></li>
 </ul>
+<h1 id="从零开始"><a href="#从零开始" class="headerlink" title="从零开始"></a>从零开始</h1><ol>
+<li>安装git</li>
+<li>配置github地址<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的GitHub注册邮箱&quot;</span><br><span class="line">ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot;</span><br></pre></td></tr></table></figure></li>
+<li>复制生成的.ssh文件夹里id.rsa.pub中的密钥全部复制</li>
+<li>打开Github Settings keys，新建new SSH Key<br>Title自主命名，Key粘贴</li>
+<li>安装Node.js</li>
+<li>安装Hexo<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+安装完成后初始化<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init blog  #注意这些命令作用在创建的Blog文件夹</span><br><span class="line">hexo n 随便一个页面名字 #创建新页面</span><br><span class="line">hexo g  #生成网页</span><br><span class="line">hexo s  #在本地预览</span><br></pre></td></tr></table></figure>
+随后打开localhost:4000，本地页面出现</li>
+<li>关联Github，打开站点配置文件_config.yml，最下面这样改<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repo: 这里填入你之前在GitHub上创建仓库的完整路径，记得加上 .git</span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure></li>
+<li>安装Git部署插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo clean </span><br><span class="line">hexo g </span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><p>一般主题的GitHub页面里都会写，这里是一个实例<br>比如这个主题叫做next</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<p>打开站点config，把theme后面改成站点名称</p>
 ]]></content>
       <categories>
         <category>技术相关</category>
@@ -216,7 +250,7 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>昨夜，我做了一个梦</p>
 <span id="more"></span>
 
-    <div id="aplayer-AonxxZzJ" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-nbbOzBBt" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="537854739" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 <p>梦的大致内容是我变娃参加了娃聚，和各种可爱娃娃贴贴，贴了许多天。随后我就一直变娃生活着，无论上街还是上学，家里还是家外。<br>醒来之后我尝试把它记了下来。印象深刻的是我出现在学校，我成为了一种受欢迎的存在。值得说的是，没人在意我是七格鲁米，他们把我看得和普通人一样，仿佛脸上的头壳不存在。上街也是，去哪都是。<br>我还记得，我在娃聚的时候，用本不属于我的皮肤触碰到别的娃，那种软绵绵的、温暖的感觉，由我的手指，传到我的心中，让我想扑倒，想楼在怀里，想被抱着睡着。由模糊的视窗看见对面娃的脸庞，正微笑着看着我，我向下低头，看到的是现实中不会出现的华丽的服装。相拥在一起，是一种温暖的感觉。奈子也被戳到了，我的皮肤也被人触碰了，被抚摸着。对面也不是冰冷的物体，我看着娃胸部的起伏，也能聆听到呼吸声。但是我也不必听到什么声音，无需交流，贴近也只有心跳扑通扑通的声音和呼吸声回荡在壳子里。<br>一点不涩，和涩涩完全没关系，但完全是我想的那样，只要看一眼便会治愈的感觉。</p>
@@ -232,6 +266,52 @@
         <tag>心情</tag>
         <tag>kigurumi</tag>
         <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>倾听风的声音『第2期』</title>
+    <url>/2021/02/24/%E5%80%BE%E5%90%AC%E9%A3%8E%E7%9A%84%E5%A3%B0%E9%9F%B3%E3%80%8E%E7%AC%AC2%E6%9C%9F%E3%80%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>『第2期』</p>
+<span id="more"></span>
+
+<img src="/img/luotianyi2.png">
+
+<p>这里写一些我比较常听的歌曲~<br>一般是我觉得比较好听的er~<br>或者对某首歌有着比较特殊的情怀（<br>有很多宝藏歌曲！！<br>这个页面会持续更新的~<br>有的也会写一些我的感受~<br>大部分都会放MV&#x2F;PV~</p>
+<div class="admonition warning"><p><strong>请不要在无关的地方刷我哦~大家都是听话的好孩子对不对www</strong></p>
+</div>
+
+<h1 id="世末歌者"><a href="#世末歌者" class="headerlink" title="世末歌者"></a>世末歌者</h1><ul>
+<li>语言：中文</li>
+<li>词 : COP</li>
+<li>曲 : COP</li>
+<li>类型：V家</li>
+<li>歌姬：乐正绫</li>
+<li>推荐理由：<br>这首歌也算我的入坑曲之一吧。当时只听一些大佬的翻唱版本，却没有听过原版。现在看来，COP的调教确实非常强（是我达不到的水平www），这样听反而乐正绫的版本更加有故事。我听天依和阿绫合唱那个版本比较少，我觉得阿绫独唱的这个版本比较有世末歌者的感觉。孤独的一个人，在街上……瞬间有了画面感。有时候我孤独无助了，或者收到了什么责骂，都会听一听这首歌。这首歌对我，不仅是治愈，也是我的过去。<br>这首歌的PV更像在描绘一个故事，当场景切换，你就仿佛有一种身临其境的感觉。真心推荐大家空闲的时候，去看着PV，听着歌，思考一些平常没有时间思考的事情。<br>当然，这个的系列曲我也很推荐大家去听~<br>——2021.02.24</li>
+</ul>
+<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=6009789&bvid=BV1Qs411k7Qv&cid=35302832&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+<hr>
+<h1 id="原神-闪耀的群星-The-Stellar-Moments-（专辑）"><a href="#原神-闪耀的群星-The-Stellar-Moments-（专辑）" class="headerlink" title="原神-闪耀的群星 The Stellar Moments （专辑）"></a>原神-闪耀的群星 The Stellar Moments <strong>（专辑）</strong></h1><ul>
+<li>制作人：陈致逸 &#x2F; HOYO-MiX</li>
+<li>类型：纯音乐&#x2F;游戏BGM</li>
+<li>专辑页面：<a href="https://music.163.com/#/album?id=122524667">网页链接</a></li>
+<li>推荐理由：<br>这张专辑是我比较喜欢的一张专辑。总长度不长，但是妙啊（bushi）<br>这张专辑里面有着原神所有角色的BGM，如果你了解每个角色，即使不看歌名也能猜到这首歌是哪个角色的。这张专辑中的每首歌都风格分明，并不让人厌烦。米忽悠的BGM一直可以的~<br>我比较喜欢甘雨和温迪的BGM，我认为这两个曲子完美的突出了角色特点。<br>甘雨的突出了甘雨的腼腆，温迪的突出了风神的……嗯，总之说不出来的妙！<br>顺便说说原神。原神这款游戏是我玩过的比较震撼的。很少有游戏能让我上瘾，但是原神例外，现在每天不打一个小时难受得慌。开放世界的游戏总是很吸引我，每一个剧情有很强的代入感，旅行时候的场景很吸引人，就是策划有点费马2333<br>这里放两个我比较喜欢的角色演示~<br>——2021.02.24</li>
+</ul>
+<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=928547773&bvid=BV1xT4y1N7Wn&cid=280949940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=627236039&bvid=BV1st4y1q7V4&cid=238833609&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<blockquote>
+<p>截至本篇已撰写4篇『倾听风的声音』</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>倾听风的声音</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+        <tag>歌单</tag>
       </tags>
   </entry>
   <entry>
@@ -291,9 +371,9 @@
       </tags>
   </entry>
   <entry>
-    <title>倾听风的声音『第2期』</title>
-    <url>/2021/02/24/%E5%80%BE%E5%90%AC%E9%A3%8E%E7%9A%84%E5%A3%B0%E9%9F%B3%E3%80%8E%E7%AC%AC2%E6%9C%9F%E3%80%8F/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>『第2期』</p>
+    <title>倾听风的声音『第4期』</title>
+    <url>/2021/02/26/%E5%80%BE%E5%90%AC%E9%A3%8E%E7%9A%84%E5%A3%B0%E9%9F%B3%E3%80%8E%E7%AC%AC4%E6%9C%9F%E3%80%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>『第4期』</p>
 <span id="more"></span>
 
 <img src="/img/luotianyi2.png">
@@ -302,30 +382,26 @@
 <div class="admonition warning"><p><strong>请不要在无关的地方刷我哦~大家都是听话的好孩子对不对www</strong></p>
 </div>
 
-<h1 id="世末歌者"><a href="#世末歌者" class="headerlink" title="世末歌者"></a>世末歌者</h1><ul>
+<h1 id="春风来"><a href="#春风来" class="headerlink" title="春风来"></a>春风来</h1><ul>
 <li>语言：中文</li>
-<li>词 : COP</li>
-<li>曲 : COP</li>
+<li>词 : 苍十三 &#x2F; 阿良良木健</li>
+<li>曲 : 阿良良木健</li>
 <li>类型：V家</li>
-<li>歌姬：乐正绫</li>
-<li>推荐理由：<br>这首歌也算我的入坑曲之一吧。当时只听一些大佬的翻唱版本，却没有听过原版。现在看来，COP的调教确实非常强（是我达不到的水平www），这样听反而乐正绫的版本更加有故事。我听天依和阿绫合唱那个版本比较少，我觉得阿绫独唱的这个版本比较有世末歌者的感觉。孤独的一个人，在街上……瞬间有了画面感。有时候我孤独无助了，或者收到了什么责骂，都会听一听这首歌。这首歌对我，不仅是治愈，也是我的过去。<br>这首歌的PV更像在描绘一个故事，当场景切换，你就仿佛有一种身临其境的感觉。真心推荐大家空闲的时候，去看着PV，听着歌，思考一些平常没有时间思考的事情。<br>当然，这个的系列曲我也很推荐大家去听~<br>——2021.02.24</li>
+<li>歌姬：洛天依</li>
+<li>推荐理由：<br>先说一下，这个是有过一个改版的。是改了几个声线。我认为改了之后比起原版的祈愿，这个版本更多的是绝望。<br>我建议大家先看PV，也就是未改的，如果对这个专辑比较感兴趣的话，再一首一首的细品每一首歌。<br>这里我贴一下阿良良老师在B站的置顶评论：</li>
 </ul>
-<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=6009789&bvid=BV1Qs411k7Qv&cid=35302832&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-
-<hr>
-<h1 id="原神-闪耀的群星-The-Stellar-Moments-（专辑）"><a href="#原神-闪耀的群星-The-Stellar-Moments-（专辑）" class="headerlink" title="原神-闪耀的群星 The Stellar Moments （专辑）"></a>原神-闪耀的群星 The Stellar Moments <strong>（专辑）</strong></h1><ul>
-<li>制作人：陈致逸 &#x2F; HOYO-MiX</li>
-<li>类型：纯音乐&#x2F;游戏BGM</li>
-<li>专辑页面：<a href="https://music.163.com/#/album?id=122524667">网页链接</a></li>
-<li>推荐理由：<br>这张专辑是我比较喜欢的一张专辑。总长度不长，但是妙啊（bushi）<br>这张专辑里面有着原神所有角色的BGM，如果你了解每个角色，即使不看歌名也能猜到这首歌是哪个角色的。这张专辑中的每首歌都风格分明，并不让人厌烦。米忽悠的BGM一直可以的~<br>我比较喜欢甘雨和温迪的BGM，我认为这两个曲子完美的突出了角色特点。<br>甘雨的突出了甘雨的腼腆，温迪的突出了风神的……嗯，总之说不出来的妙！<br>顺便说说原神。原神这款游戏是我玩过的比较震撼的。很少有游戏能让我上瘾，但是原神例外，现在每天不打一个小时难受得慌。开放世界的游戏总是很吸引我，每一个剧情有很强的代入感，旅行时候的场景很吸引人，就是策划有点费马2333<br>这里放两个我比较喜欢的角色演示~<br>——2021.02.24</li>
-</ul>
-<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=928547773&bvid=BV1xT4y1N7Wn&cid=280949940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=627236039&bvid=BV1st4y1q7V4&cid=238833609&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<blockquote>
+<p>「春风来」是一首脱胎自「守望先锋」游戏角色小美的歌曲，但绝不是她的同人曲。<br>大家可以把这首歌当做一个长得像小美的女孩发生的故事来看待，但绝不要认为这就是小美的故事。 因为「春风来」的故事比小美的故事还要黑暗许多。<br>真正的故事我不会告诉大家，但我可以给你们一些提示。 众人被困在检测站，与总部失去联系，真的仅仅是因为气候原因吗？<br>阿绫与言和的死是因为互相残杀？还是天依失手杀死的？又或者是因为不明生物的袭击导致了这场惨剧？<br>最后出现的直升飞机是派来的救援还是前来赶尽杀绝的敌人？ 天依最后是活下来了？还是微笑着死去了？<br>——一切剧情发展都有可能，看你怎么理解。</p>
+</blockquote>
+<p>这首歌大多数的人还是在讨论是刀不刀这一方面的，我来说说我的看法：<br>我认为这首曲子，既然是改过版的，那么就一定有改版的理由<br>改版前的（下方视频）还没有阿良良调教的味道，只是单纯的天依<br>但改版后的（详见网易云）更有绝望的意味。《奇爱人生 LOVE ELEGIA》想要表达的，都可以从调教中听出那种绝望的感情。<br>《哀歌》《黑血症》……<br>这些歌曲，为什么会被收进同一张专辑里，大概，只有听了的人才能体会到吧……</p>
+<blockquote>
+<p>以恨之名，为爱而战。<br>——《奇爱人生 LOVE ELEGIA》专辑简介</p>
+</blockquote>
+<p>这就是阿良良老师想要表达的吧<br>——2021.02.26</p>
+<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=11491210&bvid=BV1vx411h7dV&cid=18998360&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 <blockquote>
-<p>截至本篇已撰写4篇『倾听风的声音』</p>
+<p>截至本篇已撰写6篇『倾听风的声音』</p>
 </blockquote>
 ]]></content>
       <categories>
@@ -361,7 +437,7 @@
 </blockquote>
 <p>——2021.02.25</p>
 
-    <div id="aplayer-PoTSoaGe" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-IOduKOIj" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1368967575" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -369,48 +445,6 @@
 
 <blockquote>
 <p>截至本篇已撰写5篇『倾听风的声音』</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>倾听风的声音</category>
-      </categories>
-      <tags>
-        <tag>音乐</tag>
-        <tag>歌单</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>倾听风的声音『第4期』</title>
-    <url>/2021/02/26/%E5%80%BE%E5%90%AC%E9%A3%8E%E7%9A%84%E5%A3%B0%E9%9F%B3%E3%80%8E%E7%AC%AC4%E6%9C%9F%E3%80%8F/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>『第4期』</p>
-<span id="more"></span>
-
-<img src="/img/luotianyi2.png">
-
-<p>这里写一些我比较常听的歌曲~<br>一般是我觉得比较好听的er~<br>或者对某首歌有着比较特殊的情怀（<br>有很多宝藏歌曲！！<br>这个页面会持续更新的~<br>有的也会写一些我的感受~<br>大部分都会放MV&#x2F;PV~</p>
-<div class="admonition warning"><p><strong>请不要在无关的地方刷我哦~大家都是听话的好孩子对不对www</strong></p>
-</div>
-
-<h1 id="春风来"><a href="#春风来" class="headerlink" title="春风来"></a>春风来</h1><ul>
-<li>语言：中文</li>
-<li>词 : 苍十三 &#x2F; 阿良良木健</li>
-<li>曲 : 阿良良木健</li>
-<li>类型：V家</li>
-<li>歌姬：洛天依</li>
-<li>推荐理由：<br>先说一下，这个是有过一个改版的。是改了几个声线。我认为改了之后比起原版的祈愿，这个版本更多的是绝望。<br>我建议大家先看PV，也就是未改的，如果对这个专辑比较感兴趣的话，再一首一首的细品每一首歌。<br>这里我贴一下阿良良老师在B站的置顶评论：</li>
-</ul>
-<blockquote>
-<p>「春风来」是一首脱胎自「守望先锋」游戏角色小美的歌曲，但绝不是她的同人曲。<br>大家可以把这首歌当做一个长得像小美的女孩发生的故事来看待，但绝不要认为这就是小美的故事。 因为「春风来」的故事比小美的故事还要黑暗许多。<br>真正的故事我不会告诉大家，但我可以给你们一些提示。 众人被困在检测站，与总部失去联系，真的仅仅是因为气候原因吗？<br>阿绫与言和的死是因为互相残杀？还是天依失手杀死的？又或者是因为不明生物的袭击导致了这场惨剧？<br>最后出现的直升飞机是派来的救援还是前来赶尽杀绝的敌人？ 天依最后是活下来了？还是微笑着死去了？<br>——一切剧情发展都有可能，看你怎么理解。</p>
-</blockquote>
-<p>这首歌大多数的人还是在讨论是刀不刀这一方面的，我来说说我的看法：<br>我认为这首曲子，既然是改过版的，那么就一定有改版的理由<br>改版前的（下方视频）还没有阿良良调教的味道，只是单纯的天依<br>但改版后的（详见网易云）更有绝望的意味。《奇爱人生 LOVE ELEGIA》想要表达的，都可以从调教中听出那种绝望的感情。<br>《哀歌》《黑血症》……<br>这些歌曲，为什么会被收进同一张专辑里，大概，只有听了的人才能体会到吧……</p>
-<blockquote>
-<p>以恨之名，为爱而战。<br>——《奇爱人生 LOVE ELEGIA》专辑简介</p>
-</blockquote>
-<p>这就是阿良良老师想要表达的吧<br>——2021.02.26</p>
-<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=11491210&bvid=BV1vx411h7dV&cid=18998360&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-<blockquote>
-<p>截至本篇已撰写6篇『倾听风的声音』</p>
 </blockquote>
 ]]></content>
       <categories>
@@ -605,6 +639,38 @@
       </tags>
   </entry>
   <entry>
+    <title>又一段失眠的话语</title>
+    <url>/2024/01/26/%E5%8F%88%E4%B8%80%E6%AE%B5%E5%A4%B1%E7%9C%A0%E7%9A%84%E8%AF%9D%E8%AF%AD/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>前天晚上没有失眠，可能是最近想了太多事情，导致身体比较疲惫。睡得挺香的，即使在他乡。</p>
+<span id="more"></span>
+
+
+<p>因为还是说到下一步治疗的问题，持续这样的状态没法长久。<br>虽然玩kig算是唯一能够让我高兴的东西了，不过现在的情况就是玩得越来越焦虑。<br>吃药好难减肥，尽管一天只吃一顿饭，而且也让自己动起来了，体重也还是日益增长。也不太敢穿胶之类的，我也不想变肉装。谁不想用最好的身材出自己喜欢的角色啊？<br>想换药了。现在的药吃了感觉没什么作用，该失眠时候还是会失眠，该难受的时候还是会难受。虽然换别的药肯定也不便宜。准备转院之后问问上海的医生。只要能让我不难受，就都还有希望。<br>但是挂号真的好难。要年后了。还不一定能挂上。<br>讲个地狱笑话，收了友人的头壳，我的头围本来就大，所以拆了好多海绵，结果发现，效果最好的支撑方法，就是拿着另一边还不算影响的肿瘤卡着头壳。要是去年没割左边的指不定真能拿肿瘤顶一天出展去hhh<br>别人变娃脑袋顶着头，我拿肿瘤卡着，也有点哭笑不得。<br>昨天和夕暮去清华逛了逛，主要也算是在北京假期约到了个景点，闲着也是闲着，反正没去过嘛，当打卡了，而且前三年也没开放。<br>倒是在香港的时候也游览过港大，小时候经常在内大内工大内农大玩，感觉清华还是蛮多历史景观在里面的，倒是内地的大学环境总感觉也就是校园规模的区别。毕竟儿时从小见到大的东西。人文环境的话，那肯定是越高越好了。虽然我也没体验过。<br>就，还是挺自卑的。也好想上个好大学不显得太丢人。至少按照之前来说，应该上个985211之类的没什么问题的。<br>感觉有时候参加娃聚的大家都是高材生，就我一个显得上不去的。想到这个还是好自卑。确实有人会因为这个嫌弃我，我也认。怪我学历不高。但我可能再也难以回到那样的环境中。<br>如果到时候在上海看病有转机的话，想去长沙和成都玩，大概率是旅游多一点，也在考虑要不要带头壳。<br>上次做心理咨询的时候和咨询师提起了我的生日。今年算是为了家里面，自己也没有按照自己的想法过。那几天家里面确实忙。生日前的想法其实是搞个娃聚，叫上二十几个娃，房费餐食都我出。只要我快乐就值得的。不过又一次泡汤，习惯了。五年也没有过像样的生日。这一次倒是收到了这几年来第一个礼物，第一个别人为我定的蛋糕，应该是第一次和朋友过生日，想起这个还是好开心。虽然和自己的想法还是有一些落差。试着说服自己知足吧。还是不知足的话，就只能等着下次吧，也可能没有下次。该怨我的生日时间不太好。<br>喝了好几杯咖啡所以睡不着。我也不知道我为什么昨天那么想喝咖啡，星巴克瑞幸萨莉亚畅饮喝了个遍。<br>我承认我挺菜的。我一直都承认。有时候确实癞蛤蟆想吃天鹅肉。<br>啊，单曲循环MIMI的新歌，敲下这段。</p>
+<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=539012788&bvid=BV1ji4y1W71L&cid=1415701136&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+<img src="/img/photo/2024-01-26 001.jpg">
+<img src="/img/photo/2024-01-26 002.jpg">
+<img src="/img/photo/2024-01-26 003.JPG">
+<img src="/img/photo/2024-01-26 004.JPG">
+<img src="/img/photo/2024-01-26 005.JPG">
+<img src="/img/photo/2024-01-26 006.JPG">
+<img src="/img/photo/2024-01-26 007.jpg">
+<img src="/img/photo/2024-01-26 008.jpg">
+]]></content>
+      <categories>
+        <category>心路历程</category>
+      </categories>
+      <tags>
+        <tag>心情</tag>
+        <tag>记录</tag>
+        <tag>音乐</tag>
+        <tag>双相</tag>
+        <tag>风景</tag>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在尝试释然一些东西</title>
     <url>/2022/11/12/%E5%9C%A8%E5%B0%9D%E8%AF%95%E9%87%8A%E7%84%B6%E4%B8%80%E4%BA%9B%E4%B8%9C%E8%A5%BF/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><img src="/img/LuotianyiBackground1.png">
@@ -643,7 +709,7 @@
 <span id="more"></span>
 
 
-    <div id="aplayer-sXgonwiE" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-rHEnrVeS" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1361658395" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -665,7 +731,7 @@
     <title>大白最黑的小窝，堂堂复活！</title>
     <url>/2024/01/08/%E5%A4%A7%E7%99%BD%E6%9C%80%E9%BB%91%E7%9A%84%E5%B0%8F%E7%AA%9D%EF%BC%8C%E5%A0%82%E5%A0%82%E5%A4%8D%E6%B4%BB%EF%BC%81/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
-    <div id="aplayer-OHylxRqD" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-dByLQipI" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2076157583" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -733,7 +799,7 @@
 <p>现在处于一种极度焦虑与空虚的精神状态，并且绝没这么简单，而那种感觉我说不出</p>
 <span id="more"></span>
 
-    <div id="aplayer-xBJMmDKC" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-vtotKkQE" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1374110939" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 <p>我感觉主要是因为我在现实生活中各种的阻碍。两个月没怎么出去，快递也收不到，经历过放开与恐慌，家中被水淹，也在关心着城市另一边几个月未见的家人，在学业上的问题以及尚未完成的一些作品。两个月来也没什么收入。这些时时刻刻都在提醒我我是个没什么力量的个体，我只需要做好自己的一些琐事。<br>近些日子，我也无法沉浸于任何一部作品，不论是游戏还是漫画。无所事事，却感觉极度疲惫，想一觉睡到世界消逝。<br>我十分需要抛开所有SNS，不管是内或外。去做一些创作相关的事情。每天看到各地的各种事情让我心如乱麻，也让我不由得联想到一些东西，最终也常常发现那些事情与我无关，就算与我有关，我也完全没有力量改变。每日醒来，看到的是各类谩骂声，我一直在尝试告诫自己与自己无关，自己无力改变一类的话。我宁愿让自己相信这个世界已经没了。但仍然无法停止联想。并且我也试过一天不打开微Q还有推什么的，结果是非常不好受。信息隔离带来的焦虑是巨大的，并且也不舍得放弃有的群几百天的大火（什么）<br>正如blog里面之前说过的，我现在仍然需要释然，也在追寻慎独之类的境界。我仍然向往着纯净的互联网生活，我也想让一个软件是纯粹的聊天软件而不是传播焦虑的软件。显然很天真，而且我大抵也抽象得不可逆了。都是这样的。我现在做的只是尝试不被任何一种思想影响，用自己认为正确的主观思想去判断一些事情。<br>我完全说不出现在互联网上很多大佬那种富有深意的话，但这完全是我的内心想法。<br>罢了，哪有不麻的，硬撑罢了。只是今日一些事情都堆在一块罢了。</p>
@@ -753,7 +819,7 @@
 <span id="more"></span>
 
 
-    <div id="aplayer-hlqNUQQq" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-TjdoOzKz" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2008735702" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -789,38 +855,6 @@
         <tag>心情</tag>
         <tag>记录</tag>
         <tag>双相</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>又一段失眠的话语</title>
-    <url>/2024/01/26/%E5%8F%88%E4%B8%80%E6%AE%B5%E5%A4%B1%E7%9C%A0%E7%9A%84%E8%AF%9D%E8%AF%AD/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>前天晚上没有失眠，可能是最近想了太多事情，导致身体比较疲惫。睡得挺香的，即使在他乡。</p>
-<span id="more"></span>
-
-
-<p>因为还是说到下一步治疗的问题，持续这样的状态没法长久。<br>虽然玩kig算是唯一能够让我高兴的东西了，不过现在的情况就是玩得越来越焦虑。<br>吃药好难减肥，尽管一天只吃一顿饭，而且也让自己动起来了，体重也还是日益增长。也不太敢穿胶之类的，我也不想变肉装。谁不想用最好的身材出自己喜欢的角色啊？<br>想换药了。现在的药吃了感觉没什么作用，该失眠时候还是会失眠，该难受的时候还是会难受。虽然换别的药肯定也不便宜。准备转院之后问问上海的医生。只要能让我不难受，就都还有希望。<br>但是挂号真的好难。要年后了。还不一定能挂上。<br>讲个地狱笑话，收了友人的头壳，我的头围本来就大，所以拆了好多海绵，结果发现，效果最好的支撑方法，就是拿着另一边还不算影响的肿瘤卡着头壳。要是去年没割左边的指不定真能拿肿瘤顶一天出展去hhh<br>别人变娃脑袋顶着头，我拿肿瘤卡着，也有点哭笑不得。<br>昨天和夕暮去清华逛了逛，主要也算是在北京假期约到了个景点，闲着也是闲着，反正没去过嘛，当打卡了，而且前三年也没开放。<br>倒是在香港的时候也游览过港大，小时候经常在内大内工大内农大玩，感觉清华还是蛮多历史景观在里面的，倒是内地的大学环境总感觉也就是校园规模的区别。毕竟儿时从小见到大的东西。人文环境的话，那肯定是越高越好了。虽然我也没体验过。<br>就，还是挺自卑的。也好想上个好大学不显得太丢人。至少按照之前来说，应该上个985211之类的没什么问题的。<br>感觉有时候参加娃聚的大家都是高材生，就我一个显得上不去的。想到这个还是好自卑。确实有人会因为这个嫌弃我，我也认。怪我学历不高。但我可能再也难以回到那样的环境中。<br>如果到时候在上海看病有转机的话，想去长沙和成都玩，大概率是旅游多一点，也在考虑要不要带头壳。<br>上次做心理咨询的时候和咨询师提起了我的生日。今年算是为了家里面，自己也没有按照自己的想法过。那几天家里面确实忙。生日前的想法其实是搞个娃聚，叫上二十几个娃，房费餐食都我出。只要我快乐就值得的。不过又一次泡汤，习惯了。五年也没有过像样的生日。这一次倒是收到了这几年来第一个礼物，第一个别人为我定的蛋糕，应该是第一次和朋友过生日，想起这个还是好开心。虽然和自己的想法还是有一些落差。试着说服自己知足吧。还是不知足的话，就只能等着下次吧，也可能没有下次。该怨我的生日时间不太好。<br>喝了好几杯咖啡所以睡不着。我也不知道我为什么昨天那么想喝咖啡，星巴克瑞幸萨莉亚畅饮喝了个遍。<br>我承认我挺菜的。我一直都承认。有时候确实癞蛤蟆想吃天鹅肉。<br>啊，单曲循环MIMI的新歌，敲下这段。</p>
-<iframe width="100%" height="576" src="//player.bilibili.com/player.html?aid=539012788&bvid=BV1ji4y1W71L&cid=1415701136&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-
-<img src="/img/photo/2024-01-26 001.jpg">
-<img src="/img/photo/2024-01-26 002.jpg">
-<img src="/img/photo/2024-01-26 003.JPG">
-<img src="/img/photo/2024-01-26 004.JPG">
-<img src="/img/photo/2024-01-26 005.JPG">
-<img src="/img/photo/2024-01-26 006.JPG">
-<img src="/img/photo/2024-01-26 007.jpg">
-<img src="/img/photo/2024-01-26 008.jpg">
-]]></content>
-      <categories>
-        <category>心路历程</category>
-      </categories>
-      <tags>
-        <tag>心情</tag>
-        <tag>记录</tag>
-        <tag>音乐</tag>
-        <tag>双相</tag>
-        <tag>风景</tag>
-        <tag>旅行</tag>
       </tags>
   </entry>
 </search>

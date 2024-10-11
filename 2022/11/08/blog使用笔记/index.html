@@ -124,7 +124,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">758</span>
+            <span class="post-count">762</span>
         </span>
     </span>
 
@@ -169,37 +169,14 @@ var _hmt = _hmt || [];
 <span id="more"></span>
 
 
-    <div id="aplayer-bwPLUpJs" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-nVLcuiKI" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="143952185" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#66CCFF"
     ></div>
 
-<h1 id="从零开始"><a href="#从零开始" class="headerlink" title="从零开始"></a>从零开始</h1><ol>
-<li>安装git</li>
-<li>配置github地址<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的GitHub注册邮箱&quot;</span><br><span class="line">ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot;</span><br></pre></td></tr></table></figure></li>
-<li>复制生成的.ssh文件夹里id.rsa.pub中的密钥全部复制</li>
-<li>打开Github Settings keys，新建new SSH Key<br>Title自主命名，Key粘贴</li>
-<li>安装Node.js</li>
-<li>安装Hexo<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-安装完成后初始化<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog  #注意这些命令作用在创建的Blog文件夹</span><br><span class="line">hexo n 随便一个页面名字 #创建新页面</span><br><span class="line">hexo g  #生成网页</span><br><span class="line">hexo s  #在本地预览</span><br></pre></td></tr></table></figure>
-随后打开localhost:4000，本地页面出现</li>
-<li>关联Github，打开站点配置文件_config.yml，最下面这样改<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repo: 这里填入你之前在GitHub上创建仓库的完整路径，记得加上 .git</span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure></li>
-<li>安装Git部署插件<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo clean </span><br><span class="line">hexo g </span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><p>一般主题的GitHub页面里都会写，这里是一个实例<br>比如这个主题叫做next</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
-<p>打开站点config，把theme后面改成站点名称</p>
 <h1 id="图片引用"><a href="#图片引用" class="headerlink" title="图片引用"></a>图片引用</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=&quot;/img/图片名称.png&quot;&gt;</span><br></pre></td></tr></table></figure>
 <h1 id="B站引用"><a href="#B站引用" class="headerlink" title="B站引用"></a>B站引用</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe width=&quot;100%&quot; height=&quot;576&quot; src=&quot;[播放器链接]&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
 <h1 id="网易云引用"><a href="#网易云引用" class="headerlink" title="网易云引用"></a>网易云引用</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% meting &quot;1368967575&quot; &quot;netease&quot; &quot;song&quot; %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="增加ico"><a href="#增加ico" class="headerlink" title="增加ico"></a>增加ico</h1><p><del>路径Hexo\blog\node_modules\hexo-theme-kira\source\lib\iconfont</del><br><del>两个css和js文件，从<a target="_blank" rel="noopener" href="http://www.iconfont.cn保存css和js文件后替换/">www.iconfont.cn保存css和js文件后替换</a></del></p>
-<h1 id="网站主体路径"><a href="#网站主体路径" class="headerlink" title="网站主体路径"></a>网站主体路径</h1><p><del>Hexo\blog\node_modules\hexo-theme-kira\layout\components</del></p>
-<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo -g #安装Hexo</span><br><span class="line">npm update hexo -g #升级</span><br><span class="line">hexo init #初始化博客</span><br></pre></td></tr></table></figure>
-<p>命令简写</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;我的博客&quot; == hexo new &quot;我的博客&quot; #新建文章</span><br><span class="line">hexo g == hexo generate #生成</span><br><span class="line">hexo s == hexo server #启动服务预览</span><br><span class="line">hexo d == hexo deploy #部署</span><br><span class="line">hexo server #Hexo会监视文件变动并自动更新，无须重启服务器</span><br><span class="line">hexo server -s #静态模式</span><br><span class="line">hexo server -p 5000 #更改端口</span><br><span class="line">hexo server -i 192.168.1.1 #自定义 IP</span><br><span class="line">hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令</span><br></pre></td></tr></table></figure>
-<p>上传时一般这么写（传不上去多试试）</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>预览</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">npm update hexo -g \\升级Hexo</span><br><span class="line">hexo new &quot;[NAME]&quot; \\创建名称为NAME的文章</span><br><span class="line">hexo generate \\生成页面</span><br><span class="line">hexo server \\启动实时服务预览</span><br><span class="line">hexo clean \\清除缓存</span><br><span class="line">hexo deploy \\部署</span><br></pre></td></tr></table></figure>
 <h1 id="常用参数"><a href="#常用参数" class="headerlink" title="常用参数"></a>常用参数</h1><table>
 <thead>
 <tr>
@@ -210,18 +187,6 @@ var _hmt = _hmt || [];
 </tr>
 </thead>
 <tbody><tr>
-<td align="center"><del>cover</del></td>
-<td align="center"><del>theme.background.path</del></td>
-<td align="center"><del>文章封面</del></td>
-<td align="center"><del>Front Matter</del></td>
-</tr>
-<tr>
-<td align="center"><del>reprinted</del></td>
-<td align="center"><del>false</del></td>
-<td align="center"><del>是否为转载文章（转载文章不会标记版权信息）</del></td>
-<td align="center"><del>Front Matter</del></td>
-</tr>
-<tr>
 <td align="center">no_word_count</td>
 <td align="center">false</td>
 <td align="center">字数统计</td>
@@ -240,6 +205,60 @@ var _hmt = _hmt || [];
 <td align="center">Front Matter</td>
 </tr>
 </tbody></table>
+<h1 id="部分Markdown语法"><a href="#部分Markdown语法" class="headerlink" title="部分Markdown语法"></a>部分Markdown语法</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br></pre></td></tr></table></figure>
+<p>以此类推 呈现效果如下</p>
+<blockquote>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3></blockquote>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">~~删除线~~</span><br><span class="line">**粗体**</span><br><span class="line">*斜体*</span><br></pre></td></tr></table></figure>
+<p>呈现效果如下</p>
+<blockquote>
+<p><del>删除线</del><br><strong>粗体</strong><br><em>斜体</em></p>
+</blockquote>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">`单行代码`</span><br><span class="line">```多行代码```</span><br></pre></td></tr></table></figure>
+<p>呈现效果如下</p>
+<blockquote>
+<p><code>I am code</code></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">I am codes,</span><br><span class="line">I am codes, too.</span><br><span class="line">Hello World!</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1. 有序列表</span><br><span class="line">- 无序列表</span><br><span class="line">* 无序列表</span><br><span class="line">+ 无序列表</span><br></pre></td></tr></table></figure>
+<p>呈现效果如下</p>
+<blockquote>
+<ol>
+<li>有序列表</li>
+</ol>
+<ul>
+<li>无序列表</li>
+</ul>
+<ul>
+<li>无序列表</li>
+</ul>
+<ul>
+<li>无序列表</li>
+</ul>
+</blockquote>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|分隔符|分隔符|分隔符|</span><br><span class="line">|:-|:-:|-:|</span><br><span class="line">|左对齐|居中|右对齐|</span><br><span class="line">|左对齐|居中|右对齐|</span><br></pre></td></tr></table></figure>
+<p>呈现效果如下</p>
+<blockquote>
+<table>
+<thead>
+<tr>
+<th align="left">分隔符</th>
+<th align="center">分隔符</th>
+<th align="right">分隔符</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">左对齐</td>
+<td align="center">居中</td>
+<td align="right">右对齐</td>
+</tr>
+<tr>
+<td align="left">左对齐</td>
+<td align="center">居中</td>
+<td align="right">右对齐</td>
+</tr>
+</tbody></table>
+</blockquote>
 <h1 id="已安装的插件"><a href="#已安装的插件" class="headerlink" title="已安装的插件"></a>已安装的插件</h1><ul>
 <li><a target="_blank" rel="noopener" href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">gitalk</a></li>
 <li><a target="_blank" rel="noopener" href="https://github.com/MIMONATCH/hexo-vtuber-banner">vTuber-Banner</a></li>
@@ -265,6 +284,21 @@ var _hmt = _hmt || [];
 <li><a target="_blank" rel="noopener" href="https://docs.hojun.cn/sakura/docs">Sakura文档</a></li>
 <li><a target="_blank" rel="noopener" href="https://shen-yu.gitee.io/2019/ayer/#%E4%BB%8B%E7%BB%8D">Ayer资料</a></li>
 </ul>
+<h1 id="从零开始"><a href="#从零开始" class="headerlink" title="从零开始"></a>从零开始</h1><ol>
+<li>安装git</li>
+<li>配置github地址<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的GitHub注册邮箱&quot;</span><br><span class="line">ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot;</span><br></pre></td></tr></table></figure></li>
+<li>复制生成的.ssh文件夹里id.rsa.pub中的密钥全部复制</li>
+<li>打开Github Settings keys，新建new SSH Key<br>Title自主命名，Key粘贴</li>
+<li>安装Node.js</li>
+<li>安装Hexo<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+安装完成后初始化<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog  #注意这些命令作用在创建的Blog文件夹</span><br><span class="line">hexo n 随便一个页面名字 #创建新页面</span><br><span class="line">hexo g  #生成网页</span><br><span class="line">hexo s  #在本地预览</span><br></pre></td></tr></table></figure>
+随后打开localhost:4000，本地页面出现</li>
+<li>关联Github，打开站点配置文件_config.yml，最下面这样改<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repo: 这里填入你之前在GitHub上创建仓库的完整路径，记得加上 .git</span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure></li>
+<li>安装Git部署插件<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo clean </span><br><span class="line">hexo g </span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><p>一般主题的GitHub页面里都会写，这里是一个实例<br>比如这个主题叫做next</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<p>打开站点config，把theme后面改成站点名称</p>
  
       <!-- reward -->
       
